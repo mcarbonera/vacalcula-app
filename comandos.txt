@@ -1,0 +1,29 @@
+flutter clean
+fluter pub get
+
+
+# Gerar Icones
+dart run flutter_launcher_icons:main
+
+
+# Gerar Splash Screen
+dart run flutter_native_splash:create
+# Remover Splash Screen:
+dart run flutter_native_splash:remove
+
+
+# Rodar o gerador de coisa boa:
+dart pub run build_runner build
+
+
+
+-> Stateless e Stateful.              OK!!
+-> Uso de widget não vista em aula.   OK!!
+-> Persistência.                      
+-> Retrofit.                          OK!!
+-> Testes com cobertura (>= 10%).     OK!!
+-> Gerencia de estados.               OK!!
+-> Platform channel.                  OK!!
+-> Mínimo de usabilidade.             OK!!
+-> Temas.                             OK!!
+-> Github e vídeo demonstrativo.
